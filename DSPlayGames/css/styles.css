@@ -1,0 +1,173 @@
+
+
+
+:root {
+    --color-back-green: #38AF90;
+    --color-back-cinze: #797979;
+    --color-back-pink: #DD7E92;
+    --color-back-black: #383838;
+    --color-back-white: #FFFFFF;
+    --color-background: #1A1A1A;
+    --color-back-white2:#F0F0F0;
+
+
+}
+
+* {
+    box-sizing: border-box;
+ }
+
+ html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+ }
+
+.nav-container {
+    background-color: var(--color-back-green);
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav-main {
+    width: 100% ;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.nav-main a {
+    color: var(--color-back-white);
+    text-decoration: none; 
+  
+}
+
+.menu-itens {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-itens li {
+    margin: 10px;
+    font-size: 14 px;
+}
+
+.nav-brand {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#notícias {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.notícias-title {
+    text-align: center;
+    color: var(--color-back-cinze); 
+}
+.notícias-div h2 {
+    color: var(--color-back-green);   
+}
+
+.notícias-div h3 {
+    color:var(--color-back-cinze);
+}
+
+.notícias-div h4 {
+    color: var(--color-back-green);
+}
+
+.notícias-div p {
+    color: var(--color-back-cinze);
+}
+
+.notícias-div h5 {
+    color: var(--color-back-pink);
+}
+
+.mais-div {
+    color: var(--color-back-pink);
+   text-align: center;
+}
+
+.profile-container {
+    background-color: var(--color-back-white2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-container h1 {
+    color: var(--color-back-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-avatar h2 {
+    color: var(--color-back-cinze);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-avatar  p {
+    counter-reset: var(--color-back-cinze); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.profile-avatar h3 {
+    color: var(--color-back-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: var(--color-back-black);
+    color: var(--color-back-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container a {
+    color: var(--color-back-white);
+}
+
+.container-In {
+    color: var(--color-back-cinze);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+#ctrl-level {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ctrl-level-en {
+    background-color: var(--color-back-pink);
+   
+}
+
+.ctrl-level-li {
+  border: 1px solid var(--color-back-pink);
+
+}
+
